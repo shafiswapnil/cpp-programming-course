@@ -24,12 +24,13 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "C/C++: clang++ build active file",
+			"label": "C/C++: Build with clang++",
 			"command": "/usr/bin/clang++",
 			"args": [
 				"-fcolor-diagnostics",
 				"-fansi-escape-codes",
 				"-g",
+				"-std=c++20",
 				"${file}",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
